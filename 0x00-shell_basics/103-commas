@@ -1,2 +1,2 @@
-#!/bin/bash
-ls -xa\
+#!/bin/bas
+ls -xaF --format=comma
