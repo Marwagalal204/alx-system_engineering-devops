@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((2#$BINRY)) | ((5#$DECIMAL))
+printf (%x\n) $DECIMAL
