@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((5#$DECIMAL))
+echo $((2#$BINRY)) | ((5#$DECIMAL))
