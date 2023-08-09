@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la |find . -empty -maxdepth 1  | tr -d "./"
+find . -empty -printf '%f\n'
