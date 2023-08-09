@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | find . -empty
+ls -la |find . -empty -maxdepth 1  | tr -d "./"
