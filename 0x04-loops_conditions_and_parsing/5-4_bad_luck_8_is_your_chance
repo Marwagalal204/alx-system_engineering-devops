@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Loops from 1 to 10 with specific conditions for each iteration.
+
+i=1
+
+while ((i <= 10)); do
+    if ((i == 4)); then
+        echo "bad luck"
+    elif ((i == 8)); then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((i++))
+done
